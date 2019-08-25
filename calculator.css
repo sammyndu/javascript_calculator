@@ -1,0 +1,65 @@
+div {
+    border: 1px solid red;
+    margin: auto;
+}
+.grid-items {
+    width:88px;
+    height: 54px;
+    text-align: center;
+    line-height: 54px;
+    padding: auto;
+}
+
+#keyboard div:hover{
+    background-color: darkslategray;
+    color: aliceblue;
+}
+
+.screen-text {
+    color: white;
+    font-size: 40px;
+    line-height: 80px;
+    float: right;
+}
+
+.point {
+    font-size: 20px;
+}
+
+.equalto {
+    width:88px;
+    height: 166px;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    padding: auto;
+    text-align: center;
+    line-height: 166px;
+}
+button {
+    width: 90px;    
+    margin:0px -2px 0px -2px;
+    display: inline;
+}
+#calculator {
+    background-color: silver;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+}
+
+#screen {
+    width: 360px;
+    height: 80px;
+    background-color: black;
+}
+
+#keyboard {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0px;
+    width: 360px;
+    height: 280px;
+    margin-top: 20px;
+    background-color: white;
+}
